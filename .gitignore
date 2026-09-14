@@ -1,0 +1,14 @@
+# Chaves de API e variáveis de ambiente
+.env
+
+# Ambiente virtual Python
+.venv/
+venv/
+env/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Banco vetorial local (gerado dinamicamente pelo script)
+db/
