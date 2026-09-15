@@ -26,9 +26,9 @@ Primeira iteração funcional focada na validação da pipeline básica de inges
 
 ### 🔲 Etapa 1: Fundação & Pipeline de Ingestão Modular
 Transformar os scripts monolíticos (`create_db.py` e `main.py`) em uma estrutura modular pronta para dezenas de documentos:
-- [ ] Modularização do código em pastas estruturadas (`app/rag/`, `app/prompts/`, `base/`).
-- [ ] Organização do diretório de documentos por categorias normativas: `base/leis/`, `base/leis_complementares/`, `base/decretos/`.
-- [ ] Extração e injeção automática de metadados de arquivo (tipo de ato, número, ano e município).
+- [X] Modularização do código em pastas estruturadas (`app/rag/`, `app/prompts/`, `base/`).
+- [X] Organização do diretório de documentos por categorias normativas: `base/leis/`, `base/leis_complementares/`, `base/decretos/`.
+- [X] Extração e injeção automática de metadados de arquivo (tipo de ato, número, ano e município).
 
 ### 🔲 Etapa 2: Chunking Semântico Jurídico e Camada Estrutural
 Substituição da divisão cega de caracteres por preservação de unidades normativas do direito administrativo:
